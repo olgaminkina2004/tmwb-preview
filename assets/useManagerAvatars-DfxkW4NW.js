@@ -1,1 +1,0 @@
-import{u as e}from"./vendor-query-B6RmtI2u.js";import{a as t}from"./analytics-B4fNuL7K.js";const s={};function o(){const{data:a}=e({queryKey:["manager-avatars"],queryFn:()=>t.managerAvatars().then(r=>r.data),staleTime:3e5});return a??s}export{o as u};
