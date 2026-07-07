@@ -1,0 +1,4 @@
+# OIRO Analytics — internal tool, not for public indexing.
+# `<meta name="robots" content="noindex, nofollow">` дублирует это в HTML.
+User-agent: *
+Disallow: /

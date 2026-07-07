@@ -1,0 +1,1 @@
+import{r}from"./vendor-react-CSZ7CJ5S.js";import{a as s}from"./favicon-sT17UVLC.js";const i="WB Хаб",a=" · WB Хаб";function f(o){const{title:t,favicon:e}=o;r.useEffect(()=>{const c=document.title;document.title=t?`${t}${a}`:i;const n=e?s(e):()=>{};return()=>{document.title=c,n()}},[t,e])}export{f as u};

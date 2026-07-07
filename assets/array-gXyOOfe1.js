@@ -1,0 +1,1 @@
+function l(t,n,e){const o=t.length;for(let r=1;r<=o;r++){const f=(n+r)%o;if(e(t[f],f))return f}return-1}function i(t){if(t.length===0)return null;const n=[...t].sort((o,r)=>o-r),e=Math.floor(n.length/2);return n.length%2===0?(n[e-1]+n[e])/2:n[e]}export{l as f,i as m};

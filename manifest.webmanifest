@@ -1,0 +1,26 @@
+{
+  "name": "OIRO Analytics",
+  "short_name": "OIRO",
+  "description": "Внутренний инструмент команды OIRO: каталог товаров, аналитика, каталог разработки.",
+  "lang": "ru",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FBF7F2",
+  "theme_color": "#FBF7F2",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "maskable any"
+    }
+  ]
+}
